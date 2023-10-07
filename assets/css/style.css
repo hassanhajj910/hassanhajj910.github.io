@@ -1314,7 +1314,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 400px;
     margin-inline: auto;
     padding: 30px;
   }
@@ -1337,7 +1337,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
   /**
    * #MAIN
    */
@@ -1358,12 +1357,14 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 30px;
   }
 
+  .sidebar-info { flex-direction: column; }
+
 
   .rounded-image {
     border-radius: 50%; /* This creates a circular shape. You can adjust the percentage to control the roundness. */
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 700px; }
 
   .sidebar-info { gap: 15px; }
 
@@ -1893,6 +1894,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
+  .sidebar {
+    max-height: 200px;
+    margin-bottom: 30px;
+  }
 
   /**
    * NAVBAR
