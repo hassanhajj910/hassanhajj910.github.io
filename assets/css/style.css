@@ -1379,7 +1379,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 275px;
     margin-bottom: 30px;
   }
 
@@ -1390,11 +1390,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar.active { max-height: 584px; }
 
-  .sidebar-info { gap: 25px; }
+  .sidebar-info { gap: 15px; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; border-radius: 20px;}
+  .avatar-box img { width: 100px; border-radius: 20px;}
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1482,7 +1482,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;
   }
 
-  .testimonials-avatar-box img { width: 80px; border-radius: 20px;}
+  .testimonials-avatar-box img { width: 80px; border-radius: 10px;}
 
   .testimonials-item-title {
     margin-bottom: 10px;
@@ -1518,7 +1518,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
   }
 
-  .modal-avatar-box img { width: 65px; border-radius: 20px; }
+  .modal-avatar-box img { width: 65px; border-radius: 20px;}
 
   .modal-img-wrapper > img {
     display: block;
@@ -1646,7 +1646,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: 680px;
   }
 
-  .modal-avatar-box img { width: 80px; border-radius: 20px}
+  .modal-avatar-box img { width: 80px; border-radius: 20px;}
 
 
 
@@ -1891,7 +1891,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; border-radius: 20px; }
+  .avatar-box img { width: 150px; border-radius: 20px;}
 
   .info-content .name {
     white-space: nowrap;
